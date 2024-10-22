@@ -3,9 +3,9 @@ Interface Development Project
 
 [![My Skills](https://skillicons.dev/icons?i=python)](https://skillicons.dev)
 
-🇪🇸: Projecto de Python para desarrollo de interfaces.
+ᴱˢ: Projecto de Python para desarrollo de interfaces.
 
-🇬🇧: Python project for interface development.
+ᴱᴺ: Python project for interface development.
 
 
 ## License
