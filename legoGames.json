@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "title": "LEGO Island",
+        "release_year": 1997,
+        "theme": "Adventure",
+        "director": "Gordon Walton",
+        "production_years": 2,
+        "production_cost": 1000000,
+        "revenue": 5000000
+    },
+    {
+        "id": 2,
+        "title": "LEGO Racers",
+        "release_year": 1999,
+        "theme": "Racing",
+        "director": "Kirkland W. Jackson",
+        "production_years": 1,
+        "production_cost": 1500000,
+        "revenue": 3000000
+    },
+    {
+        "id": 3,
+        "title": "LEGO Creator",
+        "release_year": 2001,
+        "theme": "Simulation",
+        "director": "Rami Ismail",
+        "production_years": 1,
+        "production_cost": 2000000,
+        "revenue": 4000000
+    },
+    {
+        "id": 4,
+        "title": "LEGO Star Wars: The Video Game",
+        "release_year": 2005,
+        "theme": "Science Fiction, Adventure",
+        "director": "Jonathan Smith",
+        "production_years": 2,
+        "production_cost": 5000000,
+        "revenue": 10000000
+    },
+    {
+        "id": 5,
+        "title": "LEGO Star Wars II: The Original Trilogy",
+        "release_year": 2006,
+        "theme": "Science Fiction, Adventure",
+        "director": "Jonathan Smith",
+        "production_years": 1,
+        "production_cost": 6000000,
+        "revenue": 12000000
+    },
+    {
+        "id": 6,
+        "title": "LEGO Indiana Jones: The Original Adventures",
+        "release_year": 2008,
+        "theme": "Adventure",
+        "director": "Jonathan Smith",
+        "production_years": 2,
+        "production_cost": 5000000,
+        "revenue": 10000000
+    },
+    {
+        "id": 7,
+        "title": "LEGO Star Wars: The Force Unleashed",
+        "release_year": 2008,
+        "theme": "Science Fiction, Action",
+        "director": "Kurt Marvis",
+        "production_years": 2,
+        "production_cost": 7000000,
+        "revenue": 12000000
+    },
+    {
+        "id": 8,
+        "title": "LEGO Harry Potter: Years 1-4",
+        "release_year": 2010,
+        "theme": "Fantasy, Adventure",
+        "director": "Nick Ricks",
+        "production_years": 3,
+        "production_cost": 7000000,
+        "revenue": 15000000
+    },
+    {
+        "id": 9,
+        "title": "LEGO Harry Potter: Years 5-7",
+        "release_year": 2011,
+        "theme": "Fantasy, Adventure",
+        "director": "Nick Ricks",
+        "production_years": 2,
+        "production_cost": 8000000,
+        "revenue": 14000000
+    },
+    {
+        "id": 10,
+        "title": "LEGO Legends of Chima: Laval's Journey",
+        "release_year": 2013,
+        "theme": "Adventure, Fantasy",
+        "director": "Arthur Parsons",
+        "production_years": 3,
+        "production_cost": 6000000,
+        "revenue": 8000000
+    },
+    {
+        "id": 11,
+        "title": "LEGO Marvel Super Heroes",
+        "release_year": 2013,
+        "theme": "Superheroes, Action",
+        "director": "Arthur Parsons",
+        "production_years": 3,
+        "production_cost": 10000000,
+        "revenue": 20000000
+    },
+    {
+        "id": 12,
+        "title": "LEGO Ninjago: Nindroids",
+        "release_year": 2014,
+        "theme": "Action, Adventure",
+        "director": "TT Games",
+        "production_years": 1,
+        "production_cost": 4000000,
+        "revenue": 6000000
+    },
+    {
+        "id": 13,
+        "title": "LEGO Batman 3: Beyond Gotham",
+        "release_year": 2014,
+        "theme": "Superheroes, Action",
+        "director": "Arthur Parsons",
+        "production_years": 3,
+        "production_cost": 12000000,
+        "revenue": 22000000
+    },
+    {
+        "id": 14,
+        "title": "LEGO Marvel Super Heroes 2",
+        "release_year": 2017,
+        "theme": "Superheroes, Action",
+        "director": "Arthur Parsons",
+        "production_years": 3,
+        "production_cost": 10000000,
+        "revenue": 20000000
+    },
+    {
+        "id": 15,
+        "title": "LEGO Ninjago Movie Video Game",
+        "release_year": 2017,
+        "theme": "Action, Adventure",
+        "director": "Jonathan Smith",
+        "production_years": 2,
+        "production_cost": 6000000,
+        "revenue": 9000000
+    },
+    {
+        "id": 16,
+        "title": "LEGO The Incredibles",
+        "release_year": 2018,
+        "theme": "Action, Adventure",
+        "director": "Jonathan Smith",
+        "production_years": 2,
+        "production_cost": 8000000,
+        "revenue": 15000000
+    },
+    {
+        "id": 17,
+        "title": "LEGO DC Super Villains",
+        "release_year": 2018,
+        "theme": "Superheroes, Action",
+        "director": "Arthur Parsons",
+        "production_years": 3,
+        "production_cost": 9000000,
+        "revenue": 18000000
+    },
+    {
+        "id": 18,
+        "title": "LEGO Star Wars: The Skywalker Saga",
+        "release_year": 2022,
+        "theme": "Science Fiction, Adventure",
+        "director": "James Waugh",
+        "production_years": 5,
+        "production_cost": 25000000,
+        "revenue": 50000000
+    }
+]
