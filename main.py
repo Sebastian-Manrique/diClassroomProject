@@ -1,10 +1,7 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Oct 24 20:39:46 2024
-
-@author: Sebastian-Manrique
-"""
 import requests
+import functions
+import threading
+import functions
 
 BASE_URL = 'http://127.0.0.1:5000/games'  # Cambia esta URL si tu API está en otro lugar
 
@@ -44,7 +41,20 @@ def eliminar_juego():
     else:
         print("Error al eliminar el juego o juego no encontrado.")
 
+
+def run_server():
+    functions.app.run(debug=True)
+
 def main():
+    # Hilo para ejecutar el servidor de API
+    server_thread = threading.Thread(target=run_server)
+    server_thread.start()
+    
+    # Espera un breve momento para asegurarse de que el servidor esté activo
+    import time
+    time.sleep(1)  # Ajusta el tiempo según sea necesario
+
+    # Bucle del menú
     while True:
         print("\nMenú de Opciones:")
         print("1. Listar todos los juegos")
