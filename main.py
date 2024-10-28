@@ -10,17 +10,18 @@ def listar_juegos():
     if response.status_code == 200:
         juegos = response.json()
         for juego in juegos:
-            print(f"ID: Nombre: {juego['title']}")
+            print(f"Detalles del juego: ID: {juego['id']}, Nombre: {juego['title']}, Ganancias: {juego['revenue']}")
     else:
         print("Error al obtener la lista de juegos.")
 
 def obtener_juego_por_id(game_id):
-    response = requests.get(f"{BASE_URL}/{game_id}")
+    response = requests.get(f"{BASE_URL}")
     if response.status_code == 200:
         juego = response.json()
-        print(f"Detalles del juego: ID: {juego['id']}, Nombre: {juego['name']}, Plataforma: {juego['platform']}")
+        print(f"Detalles del juego: ID: {juego['id']}, Nombre: {juego['title']}, Ganancias: {juego['revenue']}")
     else:
         print("Juego no encontrado.")
+
 
 def agregar_juego():
     nuevo_juego = {}
