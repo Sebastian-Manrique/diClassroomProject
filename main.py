@@ -1,7 +1,7 @@
 import requests
 import functions
 import threading
-import functions
+import functions as func
 
 BASE_URL = 'http://127.0.0.1:5000/games'  # Cambia esta URL si tu API está en otro lugar
 
@@ -9,19 +9,17 @@ def listar_juegos():
     response = requests.get(BASE_URL)
     if response.status_code == 200:
         juegos = response.json()
+        print("\n")
         for juego in juegos:
-            print(f"Detalles del juego: ID: {juego['id']}, Nombre: {juego['title']}, Ganancias: {juego['revenue']}")
+         print(
+                f"\nID: {juego['id']}, Nombre: {juego['title']}\n"
+                f"Año de salida: {juego['release_year']}\n"
+                f"Plataforma: {', '.join(juego['platforms'])}\n"
+                f"Ganancias: ${juego['revenue']:,}\n"
+            )
+
     else:
         print("Error al obtener la lista de juegos.")
-
-def obtener_juego_por_id(game_id):
-    response = requests.get(f"{BASE_URL}")
-    if response.status_code == 200:
-        juego = response.json()
-        print(f"Detalles del juego: ID: {juego['id']}, Nombre: {juego['title']}, Ganancias: {juego['revenue']}")
-    else:
-        print("Juego no encontrado.")
-
 
 def agregar_juego():
     nuevo_juego = {}
@@ -47,14 +45,6 @@ def run_server():
     functions.app.run(debug=True)
 
 def main():
-    # Hilo para ejecutar el servidor de API
-    server_thread = threading.Thread(target=run_server)
-    server_thread.start()
-    
-    # Espera un breve momento para asegurarse de que el servidor esté activo
-    import time
-    time.sleep(1)  # Ajusta el tiempo según sea necesario
-
     # Bucle del menú
     while True:
         print("\nMenú de Opciones:")
@@ -67,10 +57,10 @@ def main():
         opcion = input("Seleccione una opción (1-5): ")
 
         if opcion == '1':
-            listar_juegos()
+            func.obtener_juegos()
         elif opcion == '2':
             game_id = int(input("Ingrese el ID del juego: "))
-            obtener_juego_por_id(game_id)
+            func.obtener_juego_por_id_local(game_id)
         elif opcion == '3':
             agregar_juego()
         elif opcion == '4':
