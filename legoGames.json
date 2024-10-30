@@ -8,7 +8,9 @@
         "production_years": 2,
         "production_cost": 1000000,
         "revenue": 5000000,
-        "platforms": ["Microsoft Windows"]
+        "platforms": [
+            "Microsoft Windows"
+        ]
     },
     {
         "id": 2,
@@ -19,7 +21,12 @@
         "production_years": 1,
         "production_cost": 1500000,
         "revenue": 3000000,
-        "platforms": ["Microsoft Windows", "PlayStation", "Nintendo 64", "Game Boy Color"]
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation",
+            "Nintendo 64",
+            "Game Boy Color"
+        ]
     },
     {
         "id": 3,
@@ -30,7 +37,9 @@
         "production_years": 1,
         "production_cost": 2000000,
         "revenue": 4000000,
-        "platforms": ["Microsoft Windows"]
+        "platforms": [
+            "Microsoft Windows"
+        ]
     },
     {
         "id": 4,
@@ -41,7 +50,13 @@
         "production_years": 2,
         "production_cost": 5000000,
         "revenue": 10000000,
-        "platforms": ["Microsoft Windows", "PlayStation 2", "Xbox", "GameCube", "Game Boy Advance"]
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation 2",
+            "Xbox",
+            "GameCube",
+            "Game Boy Advance"
+        ]
     },
     {
         "id": 5,
@@ -52,7 +67,14 @@
         "production_years": 1,
         "production_cost": 6000000,
         "revenue": 12000000,
-        "platforms": ["Microsoft Windows", "PlayStation 2", "Xbox", "GameCube", "Nintendo DS", "Game Boy Advance"]
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation 2",
+            "Xbox",
+            "GameCube",
+            "Nintendo DS",
+            "Game Boy Advance"
+        ]
     },
     {
         "id": 6,
@@ -63,7 +85,15 @@
         "production_years": 2,
         "production_cost": 5000000,
         "revenue": 10000000,
-        "platforms": ["Microsoft Windows", "PlayStation 2", "PlayStation 3", "Xbox 360", "Wii", "Nintendo DS", "PSP"]
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation 2",
+            "PlayStation 3",
+            "Xbox 360",
+            "Wii",
+            "Nintendo DS",
+            "PSP"
+        ]
     },
     {
         "id": 7,
@@ -74,7 +104,12 @@
         "production_years": 2,
         "production_cost": 7000000,
         "revenue": 12000000,
-        "platforms": ["Microsoft Windows", "PlayStation 3", "Xbox 360", "Wii"]
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation 3",
+            "Xbox 360",
+            "Wii"
+        ]
     },
     {
         "id": 8,
@@ -85,7 +120,14 @@
         "production_years": 3,
         "production_cost": 7000000,
         "revenue": 15000000,
-        "platforms": ["Microsoft Windows", "PlayStation 3", "Xbox 360", "Wii", "Nintendo DS", "PSP"]
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation 3",
+            "Xbox 360",
+            "Wii",
+            "Nintendo DS",
+            "PSP"
+        ]
     },
     {
         "id": 9,
@@ -96,7 +138,14 @@
         "production_years": 2,
         "production_cost": 8000000,
         "revenue": 14000000,
-        "platforms": ["Microsoft Windows", "PlayStation 3", "Xbox 360", "Wii", "Nintendo DS", "PSP"]
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation 3",
+            "Xbox 360",
+            "Wii",
+            "Nintendo DS",
+            "PSP"
+        ]
     },
     {
         "id": 10,
@@ -107,7 +156,10 @@
         "production_years": 3,
         "production_cost": 6000000,
         "revenue": 8000000,
-        "platforms": ["Nintendo 3DS", "PS Vita"]
+        "platforms": [
+            "Nintendo 3DS",
+            "PS Vita"
+        ]
     },
     {
         "id": 11,
@@ -118,7 +170,15 @@
         "production_years": 3,
         "production_cost": 10000000,
         "revenue": 20000000,
-        "platforms": ["Microsoft Windows", "PlayStation 3", "PlayStation 4", "Xbox 360", "Xbox One", "Wii U", "Nintendo DS"]
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation 3",
+            "PlayStation 4",
+            "Xbox 360",
+            "Xbox One",
+            "Wii U",
+            "Nintendo DS"
+        ]
     },
     {
         "id": 12,
@@ -129,7 +189,10 @@
         "production_years": 1,
         "production_cost": 4000000,
         "revenue": 6000000,
-        "platforms": ["Nintendo 3DS", "PS Vita"]
+        "platforms": [
+            "Nintendo 3DS",
+            "PS Vita"
+        ]
     },
     {
         "id": 13,
@@ -140,7 +203,14 @@
         "production_years": 3,
         "production_cost": 12000000,
         "revenue": 22000000,
-        "platforms": ["Microsoft Windows", "PlayStation 3", "PlayStation 4", "Xbox 360", "Xbox One", "Wii U"]
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation 3",
+            "PlayStation 4",
+            "Xbox 360",
+            "Xbox One",
+            "Wii U"
+        ]
     },
     {
         "id": 14,
@@ -151,7 +221,12 @@
         "production_years": 3,
         "production_cost": 10000000,
         "revenue": 20000000,
-        "platforms": ["Microsoft Windows", "PlayStation 4", "Xbox One", "Nintendo Switch"]
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation 4",
+            "Xbox One",
+            "Nintendo Switch"
+        ]
     },
     {
         "id": 15,
@@ -162,7 +237,12 @@
         "production_years": 2,
         "production_cost": 6000000,
         "revenue": 9000000,
-        "platforms": ["Microsoft Windows", "PlayStation 4", "Xbox One", "Nintendo Switch"]
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation 4",
+            "Xbox One",
+            "Nintendo Switch"
+        ]
     },
     {
         "id": 16,
@@ -173,7 +253,12 @@
         "production_years": 2,
         "production_cost": 8000000,
         "revenue": 15000000,
-        "platforms": ["Microsoft Windows", "PlayStation 4", "Xbox One", "Nintendo Switch"]
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation 4",
+            "Xbox One",
+            "Nintendo Switch"
+        ]
     },
     {
         "id": 17,
@@ -184,7 +269,12 @@
         "production_years": 3,
         "production_cost": 9000000,
         "revenue": 18000000,
-        "platforms": ["Microsoft Windows", "PlayStation 4", "Xbox One", "Nintendo Switch"]
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation 4",
+            "Xbox One",
+            "Nintendo Switch"
+        ]
     },
     {
         "id": 18,
@@ -195,7 +285,14 @@
         "production_years": 5,
         "production_cost": 25000000,
         "revenue": 50000000,
-        "platforms": ["Microsoft Windows", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S", "Nintendo Switch"]
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation 4",
+            "PlayStation 5",
+            "Xbox One",
+            "Xbox Series X/S",
+            "Nintendo Switch"
+        ]
     },
     {
         "id": 19,
@@ -206,6 +303,14 @@
         "production_years": 2,
         "production_cost": 10000000,
         "revenue": 15000000,
-        "platforms": ["Microsoft Windows", "PlayStation 3", "Xbox 360", "Wii", "Nintendo 3DS", "PSP", "Nintendo DS"]
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation 3",
+            "Xbox 360",
+            "Wii",
+            "Nintendo 3DS",
+            "PSP",
+            "Nintendo DS"
+        ]
     }
 ]

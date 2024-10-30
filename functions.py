@@ -52,17 +52,28 @@ def quiz():
 
 
 def agregar_juego():
-    nuevo_juego = {}
-    nuevo_juego['title'] = input("Ingrese el nombre del juego: ")
-    nuevo_juego['release_year'] = int(input("Ingrese el año de salida: "))
-    nuevo_juego['theme'] = input("Tematica del juego: ")
-    nuevo_juego['director'] = input("Ingrese el nombre del director del juego: ")
-    nuevo_juego['production_years'] = int(input("Años de produccion del juego: "))
-    nuevo_juego['production_cost'] = int(input("Coste de produccion: "))
-    nuevo_juego['revenue'] = input("Ganacias: ")
-    nuevo_juego['platform'] = input("Ingrese la plataforma del juego: ")
+    nuevo_juego = {
+     'id': int(input("ID: ")),   
+     'title': input("Ingrese el nombre del juego: "),
+     'release_year': int(input("Ingrese el año de salida: ")),
+     'theme': input("Tematica del juego: "),
+     'director': input("Ingrese el nombre del director del juego: "),
+     'production_years': int(input("Años de produccion del juego: ")),
+     'production_cost': int(input("Coste de produccion: ")),
+     'revenue': int(input("Ganacias: ")),
+     'platforms': [input("Ingrese la plataforma del juego: ")]
+ }
+    print("\n")
     df = pd.DataFrame(nuevo_juego)
     print(df)
+    comprobarID()
+    juegos = cargar_datos_json()
+    juegos.append(nuevo_juego)
+    with open(JSON_FILE_PATH, "w") as f:
+     json.dump(juegos, f, indent=4)
+    
+def comprobarID():
+    print("Hello")
 
 def eliminar_juego():
     game_id = int(input("Ingrese el ID del juego a eliminar: "))

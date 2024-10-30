@@ -1,5 +1,3 @@
-import requests
-import functions
 import functions as func
 
 BASE_URL = 'http://127.0.0.1:5000/games'  # Cambia esta URL si tu API está en otro lugar
@@ -15,7 +13,7 @@ def main():
         print("5. Quiz")
         print("6. Salir")
         
-        opcion = input("Seleccione una opción (1-5): ")
+        opcion = input("Seleccione una opción (1-6): ")
 
         if opcion == '1':
             func.obtener_juegos()
