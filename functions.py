@@ -46,3 +46,23 @@ def obtener_juego_por_id_local(game_id):
         )
     else:
         print("Juego no encontrado.")
+        
+def quiz():
+    print("\n Bienvenido al quiz")
+
+
+def agregar_juego():
+    nuevo_juego = {}
+    nuevo_juego['title'] = input("Ingrese el nombre del juego: ")
+    nuevo_juego['release_year'] = int(input("Ingrese el año de salida: "))
+    nuevo_juego['theme'] = input("Tematica del juego: ")
+    nuevo_juego['director'] = input("Ingrese el nombre del director del juego: ")
+    nuevo_juego['production_years'] = int(input("Años de produccion del juego: "))
+    nuevo_juego['production_cost'] = int(input("Coste de produccion: "))
+    nuevo_juego['revenue'] = input("Ganacias: ")
+    nuevo_juego['platform'] = input("Ingrese la plataforma del juego: ")
+    df = pd.DataFrame(nuevo_juego)
+    print(df)
+
+def eliminar_juego():
+    game_id = int(input("Ingrese el ID del juego a eliminar: "))
