@@ -1,6 +1,5 @@
 import functions as func
 
-BASE_URL = 'http://127.0.0.1:5000/games'  # Cambia esta URL si tu API está en otro lugar
 
 def main():
     # Bucle del menú
@@ -12,25 +11,26 @@ def main():
         print("4. Eliminar un juego")
         print("5. Quiz")
         print("6. Salir")
-        
-        opcion = input("Seleccione una opción (1-6): ")
 
-        if opcion == '1':
-            func.obtener_juegos()
-        elif opcion == '2':
-            game_id = int(input("Ingrese el ID del juego: "))
-            func.obtener_juego_por_id_local(game_id)
-        elif opcion == '3':
-            func.agregar_juego()
-        elif opcion == '4':
-            func.eliminar_juego()
-        elif opcion == '5':
-            func.quiz()
-        elif opcion == '6':
-            print("Saliendo del programa.")
-            break
-        else:
-            print("Opción no válida. Intente de nuevo.")
+        option = input("Seleccione una opción (1-6): ")
+
+        match option:
+            case '1':
+                func.obtener_juegos()
+            case '2':
+                func.buscarJuegoPorId()
+            case '3':
+                func.agregar_juego()
+            case '4':
+                func.eliminarPorId()
+            case '5':
+                func.quiz()
+            case '6':
+                print("Saliendo del programa.")
+                break
+            case _:
+                print("Error, introduzca un valor valido")
+
 
 if __name__ == "__main__":
     main()

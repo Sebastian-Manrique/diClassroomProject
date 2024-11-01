@@ -1,0 +1,342 @@
+[
+    {
+        "id": 1,
+        "title": "LEGO Island",
+        "release_year": 1997,
+        "theme": "Adventure",
+        "director": "Gordon Walton",
+        "production_years": 2,
+        "production_cost": 1000000,
+        "revenue": 5000000,
+        "platforms": [
+            "Microsoft Windows"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "LEGO Racers",
+        "release_year": 1999,
+        "theme": "Racing",
+        "director": "Kirkland W. Jackson",
+        "production_years": 1,
+        "production_cost": 1500000,
+        "revenue": 3000000,
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation",
+            "Nintendo 64",
+            "Game Boy Color"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "LEGO Creator",
+        "release_year": 2001,
+        "theme": "Simulation",
+        "director": "Rami Ismail",
+        "production_years": 1,
+        "production_cost": 2000000,
+        "revenue": 4000000,
+        "platforms": [
+            "Microsoft Windows"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "LEGO Star Wars: The Video Game",
+        "release_year": 2005,
+        "theme": "Science Fiction, Adventure",
+        "director": "Jonathan Smith",
+        "production_years": 2,
+        "production_cost": 5000000,
+        "revenue": 10000000,
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation 2",
+            "Xbox",
+            "GameCube",
+            "Game Boy Advance"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "LEGO Star Wars II: The Original Trilogy",
+        "release_year": 2006,
+        "theme": "Science Fiction, Adventure",
+        "director": "Jonathan Smith",
+        "production_years": 1,
+        "production_cost": 6000000,
+        "revenue": 12000000,
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation 2",
+            "Xbox",
+            "GameCube",
+            "Nintendo DS",
+            "Game Boy Advance"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "LEGO Indiana Jones: The Original Adventures",
+        "release_year": 2008,
+        "theme": "Adventure",
+        "director": "Jonathan Smith",
+        "production_years": 2,
+        "production_cost": 5000000,
+        "revenue": 10000000,
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation 2",
+            "PlayStation 3",
+            "Xbox 360",
+            "Wii",
+            "Nintendo DS",
+            "PSP"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "LEGO Star Wars: The Force Unleashed",
+        "release_year": 2008,
+        "theme": "Science Fiction, Action",
+        "director": "Kurt Marvis",
+        "production_years": 2,
+        "production_cost": 7000000,
+        "revenue": 12000000,
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation 3",
+            "Xbox 360",
+            "Wii"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "LEGO Harry Potter: Years 1-4",
+        "release_year": 2010,
+        "theme": "Fantasy, Adventure",
+        "director": "Nick Ricks",
+        "production_years": 3,
+        "production_cost": 7000000,
+        "revenue": 15000000,
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation 3",
+            "Xbox 360",
+            "Wii",
+            "Nintendo DS",
+            "PSP"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "LEGO Harry Potter: Years 5-7",
+        "release_year": 2011,
+        "theme": "Fantasy, Adventure",
+        "director": "Nick Ricks",
+        "production_years": 2,
+        "production_cost": 8000000,
+        "revenue": 14000000,
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation 3",
+            "Xbox 360",
+            "Wii",
+            "Nintendo DS",
+            "PSP"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "LEGO Legends of Chima: Laval's Journey",
+        "release_year": 2013,
+        "theme": "Adventure, Fantasy",
+        "director": "Arthur Parsons",
+        "production_years": 3,
+        "production_cost": 6000000,
+        "revenue": 8000000,
+        "platforms": [
+            "Nintendo 3DS",
+            "PS Vita"
+        ]
+    },
+    {
+        "id": 11,
+        "title": "LEGO Marvel Super Heroes",
+        "release_year": 2013,
+        "theme": "Superheroes, Action",
+        "director": "Arthur Parsons",
+        "production_years": 3,
+        "production_cost": 10000000,
+        "revenue": 20000000,
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation 3",
+            "PlayStation 4",
+            "Xbox 360",
+            "Xbox One",
+            "Wii U",
+            "Nintendo DS"
+        ]
+    },
+    {
+        "id": 12,
+        "title": "LEGO Ninjago: Nindroids",
+        "release_year": 2014,
+        "theme": "Action, Adventure",
+        "director": "TT Games",
+        "production_years": 1,
+        "production_cost": 4000000,
+        "revenue": 6000000,
+        "platforms": [
+            "Nintendo 3DS",
+            "PS Vita"
+        ]
+    },
+    {
+        "id": 13,
+        "title": "LEGO Batman 3: Beyond Gotham",
+        "release_year": 2014,
+        "theme": "Superheroes, Action",
+        "director": "Arthur Parsons",
+        "production_years": 3,
+        "production_cost": 12000000,
+        "revenue": 22000000,
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation 3",
+            "PlayStation 4",
+            "Xbox 360",
+            "Xbox One",
+            "Wii U"
+        ]
+    },
+    {
+        "id": 14,
+        "title": "LEGO Marvel Super Heroes 2",
+        "release_year": 2017,
+        "theme": "Superheroes, Action",
+        "director": "Arthur Parsons",
+        "production_years": 3,
+        "production_cost": 10000000,
+        "revenue": 20000000,
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation 4",
+            "Xbox One",
+            "Nintendo Switch"
+        ]
+    },
+    {
+        "id": 15,
+        "title": "LEGO Ninjago Movie Video Game",
+        "release_year": 2017,
+        "theme": "Action, Adventure",
+        "director": "Jonathan Smith",
+        "production_years": 2,
+        "production_cost": 6000000,
+        "revenue": 9000000,
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation 4",
+            "Xbox One",
+            "Nintendo Switch"
+        ]
+    },
+    {
+        "id": 16,
+        "title": "LEGO The Incredibles",
+        "release_year": 2018,
+        "theme": "Action, Adventure",
+        "director": "Jonathan Smith",
+        "production_years": 2,
+        "production_cost": 8000000,
+        "revenue": 15000000,
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation 4",
+            "Xbox One",
+            "Nintendo Switch"
+        ]
+    },
+    {
+        "id": 17,
+        "title": "LEGO DC Super Villains",
+        "release_year": 2018,
+        "theme": "Superheroes, Action",
+        "director": "Arthur Parsons",
+        "production_years": 3,
+        "production_cost": 9000000,
+        "revenue": 18000000,
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation 4",
+            "Xbox One",
+            "Nintendo Switch"
+        ]
+    },
+    {
+        "id": 18,
+        "title": "LEGO Star Wars: The Skywalker Saga",
+        "release_year": 2022,
+        "theme": "Science Fiction, Adventure",
+        "director": "James Waugh",
+        "production_years": 5,
+        "production_cost": 25000000,
+        "revenue": 50000000,
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation 4",
+            "PlayStation 5",
+            "Xbox One",
+            "Xbox Series X/S",
+            "Nintendo Switch"
+        ]
+    },
+    {
+        "id": 19,
+        "title": "LEGO Star Wars III: The Clone Wars",
+        "release_year": 2011,
+        "theme": "Science Fiction, Action",
+        "director": "Jon Burton",
+        "production_years": 2,
+        "production_cost": 10000000,
+        "revenue": 15000000,
+        "platforms": [
+            "Microsoft Windows",
+            "PlayStation 3",
+            "Xbox 360",
+            "Wii",
+            "Nintendo 3DS",
+            "PSP",
+            "Nintendo DS"
+        ]
+    },
+    {
+        "id": 20,
+        "title": "Lego City UnderCOver",
+        "release_year": 2013,
+        "theme": "Policiaca",
+        "director": "Chase McChase",
+        "production_years": 5,
+        "production_cost": 100,
+        "revenue": 500,
+        "platforms": [
+            "WII U"
+        ]
+    },
+    {
+        "id": 22,
+        "title": "lego city UNdercover",
+        "release_year": 2013,
+        "theme": "Policiaca",
+        "director": "Chase McChase",
+        "production_years": 5,
+        "production_cost": 10000,
+        "revenue": 50000,
+        "platforms": [
+            "WII U"
+        ]
+    }
+]
